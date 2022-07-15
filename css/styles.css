@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Header Section */
+header{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 300px;
+    height: 300px;
+}
+.half-width h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.half-width p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+span{
+    color: orangered;
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(90deg, orange,orangered);
+}
+/* About Section */
+.about-bg{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.about-me{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.about-content{
+    display: flex;
+}
+#person{
+    width: 50%;
+    height: 400px;
+    padding-top: 30px;
+    
+}
+#about-me h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+#about-me p{
+    margin-bottom: 30px;
+}
+.my-recipies{
+    text-align:center;
+}
+.my-recipies h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.my-recipies p{
+    font-size: 20px;
+    margin-bottom:30px;
+}
+/* Recipie Title Section */
+#title-left{
+    text-align: justify;
+    width: 48%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    
+}
+#title-left img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+#title-right{
+    text-align: justify;
+    width: 48%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    
+}
+#title-right img{
+    width: 100%;
+}
+.recipie-title{
+    width: 100%;
+    display: flex;
+    margin:0 auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+/* Amount Section */
+.amount{
+    width:100%;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 0px 20px;
+    padding: 50px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.amount-a{
+    width: 30%;
+}
+footer{
+    background-color: black;
+    color: rgb(219, 208, 208);
+    text-align: center;
+    padding:0px;
+    font-style: italic;
+}
+.content h2{
+    padding-top: 30px;
+    font-size: 35px;
+    color: orange;
+    margin-bottom: 10px;
+}
+.content h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.content h4{
+    padding-bottom: 15px;
+}
+
+
+
